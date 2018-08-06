@@ -20,4 +20,4 @@ public class mesasBean {
 		this.idPedido = idPedido;
 	}
 
-}
+}//
