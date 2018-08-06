@@ -126,14 +126,14 @@ public class mesasView extends JFrame {
 				System.out.println((table.getValueAt(linha, 0).toString()));
 			
 				if((table.getValueAt(linha, 0).toString()).equals("1")){
-				
+				 
 				// Obter dados
 				mesasBean mb = new mesasBean();
 				
 				mb.setIdMesa(Integer.parseInt(table.getValueAt(linha, 0).toString()));
 				mb.setIdPedido(Integer.parseInt(table.getValueAt(linha, 1).toString()));
 
-				// Chamar tabela
+				// Chamar tabela 
 				AlterarMesasView amv = new AlterarMesasView(mb);
 				
 				// Fechar tabela
